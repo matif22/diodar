@@ -33,7 +33,7 @@ section::after {
 }
 
 .logo {
-    width: 14rem;
+    width: 11rem;
 }
 
 .navbar {
@@ -143,6 +143,17 @@ a:hover::after {
     margin-left: 15%;
 }
 
+/* .about-photo {
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: -1px 1px 20px 10px rgb(0, 0, 0, 1);
+    width: 50%;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 25%;
+} */
+
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -219,6 +230,7 @@ footer small {
     width: 50vw;
     padding-bottom: 100px;
     height: 70vh;
+    min-height: 30em;
 }
 
 h2 {
@@ -242,7 +254,7 @@ h2 {
         position: absolute;
         top: 7%;
         left: 3%;
-        width: 6.5em; 
+        width: 5em; 
     }
     .hamburger {
         display: flex;     
@@ -257,10 +269,10 @@ h2 {
     .nav-menu {
         position: absolute;
         right: 0;
-        top: 7vh;
+        top: 100%;
         /*background: url('./images/simple-footer.png') repeat center;*/
         background-color: #ffffff;
-        height: 30vh;
+        height: 20em;
         flex-direction: column;
         text-align: center;
         width: 100%;
@@ -361,5 +373,6 @@ h2 {
         width: 88vw;
         padding-bottom: 100px;
         height: 70vh;
+        min-height: 25em;
     }
   }
