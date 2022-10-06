@@ -258,6 +258,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+.kontakt-linki {
+    color: rgb(162, 199, 255);
+}
+
   @media only screen and (max-width: 900px) {
 
     .logo {
