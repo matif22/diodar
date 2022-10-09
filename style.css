@@ -21,7 +21,8 @@ body {
 section {
     background: url("./images/background6.webp");
     background-color: #000000;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 1;
 }
@@ -308,6 +309,7 @@ h2 {
     }
     section {
         padding-top: 20px;
+        background-size: 200%;
     }
     .item {
         width: 87%;
